@@ -1,0 +1,64 @@
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(space.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2%;
+}
+/* ----------------------------------------------------- */
+.display{
+    display: flex;
+    height: 30vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(211, 208, 79);
+}
+.watch{
+    display: flex;
+    padding: 8vw 2vw;
+    border: 8px solid rgb(142, 172, 80);
+    border-radius: 40vh; 
+    background-image: none; 
+}
+/* ------------------------------------------------------- */
+
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5vh;
+}
+.start,.pause,.reset{
+    padding: 3px ;
+    border-radius: 20px;
+    background-color: rgb(142, 172, 80);
+    color: rgb(33, 51, 99);
+}
+
+/* --------------------------------------------------------- */
+
+.last{
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.lap{
+    padding: 3px ;
+    border-radius: 20px;
+    background-color: rgb(211, 208, 79);
+    color: rgb(33, 51, 99);
+}
+
+.laplist{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 50px 120px;
+    height: 100vh ;
+    width: 80%;
+
+}
